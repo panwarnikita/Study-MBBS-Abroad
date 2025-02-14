@@ -72,9 +72,8 @@ Ensuring smooth navigation.
 
 Using visually appealing elements to retain user engagement.
 
-Color Scheme & Typography:
 
-Professional and trustworthy color palette (e.g., blue and white for a medical theme).
+Professional and trustworthy colors.
 
 Readable typography with a focus on clarity and accessibility.
 
@@ -84,15 +83,13 @@ CSS media queries are used to make the page adaptable to various screen sizes (d
 
 Visual Hierarchy:
 
-Important sections are emphasized using bold headlines, icons, and images.
-
-The CTA is placed prominently to ensure user engagement.
+Important sections are emphasized using bold headlines, and images.
 
 Development Process
 
 HTML Structure:
 
-The page is structured using semantic HTML elements for clarity and SEO optimization.
+The page is structured using semantic HTML elements for clarity.
 
 CSS Styling:
 
@@ -108,17 +105,11 @@ Smooth scrolling and animations for a seamless user experience.
 
 Challenges & Solutions
 
-Ensuring Cross-Browser Compatibility:
-
 Used standard CSS and tested across multiple browsers.
 
 Mobile Optimization:
 
 Implemented responsive design techniques to ensure the page adapts well to different screen sizes.
-
-Fast Loading Time:
-
-Optimized images and used lazy loading for better performance.
 
 Conclusion
 
