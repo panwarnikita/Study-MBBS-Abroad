@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("https://img.freepik.com/premium-photo/paper-cut-abstract-background_277819-187.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.hero {
+    background-image: url("https://sb.kaleidousercontent.com/67418/1920x1100/2ed9107761/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    padding: 5vw 3vw;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cta-btn {
+    background: blue;
+    color: white;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.cta-btn:hover {
+    background: gray;
+    color: white;
+    transform: scale(1.1);
+}
+
+
+.benefits {
+    padding: 3vw;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.benefits h2 {
+    font-size: 2rem;
+}
+
+.benefits ol {
+    text-align: left;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0;
+}
+
+.benefits ol li {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    margin-bottom: 8px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.benefits ol li:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+}
+
+.countries-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4vw;
+    gap: 2vw;
+}
+
+.country-box {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s;
+}
+
+.country-box:hover {
+    transform: scale(1.1);
+}
+
+.russia { background-image: url('https://cdn.pixabay.com/photo/2016/01/29/23/53/russian-flag-1168886_640.jpg'); }
+.uzbekistan { background-image: url('https://preview.redd.it/1houkc95wiw51.png?auto=webp&s=51d61b98d00f20e95c6e704f33fd5353a2dcceb5'); }
+.kazakhstan { background-image: url('https://m.media-amazon.com/images/I/51dZ5AoRs+L.jpg'); }
+.philippines { background-image: url('https://thumbs.dreamstime.com/b/national-flag-philippines-republic-waving-patriotic-philippine-sign-official-country-colors-sun-symbol-southeast-93460260.jpg'); }
+.georgia { background-image: url('https://media.istockphoto.com/id/1133085196/vector/georgia-waving-flag.jpg?s=612x612&w=0&k=20&c=3WKfqq5sy_V9-LublM8q1ShHdsO4KFJugpJ4YEj94kQ='); }
+.kyrgyzstan { background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLfrvJhuyVfSUza9c7ursHhMiK_gKDIkhliA&s'); }
+.egypt { background-image: url('https://cdn.britannica.com/49/22549-004-F3841FAD/Arab-Liberation-Flag-Egypt-flag-flags-design-1972.jpg'); }
+
+
+.admission {
+    padding: 3vw;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.admission h2 {
+    font-size: 2rem;
+}
+
+.admission ol {
+    text-align: left;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0;
+}
+
+.admission ol li {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    margin-bottom: 8px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.admission ol li:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+}
+
+.apply {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/431/537/small_2x/modern-eleganct-blue-background-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5vw;
+}
+
+.apply form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    background: rgb(67, 67, 67);
+    padding: 2vw;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.apply input, .apply select, .apply button {
+    margin: 1vw 0;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.apply input, .apply select {
+    background: white;
+    color: black;
+}
+
+.submit-btn {
+    background: orange;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: orangered;
+    color: black;
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero, .apply, .benefits, .admission {
+        padding: 7vw;
+    }
+
+    .country-box {
+        width: 40vw;
+        height: 25vw;
+        font-size: 0.9rem;
+    }
+
+    .apply form {
+        width: 90%;
+    }
+}
+
